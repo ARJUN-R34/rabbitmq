@@ -21,7 +21,7 @@ node consumer.js
 Put messages in the queue using the producer
 
 ```sh
-node producer.js "Hello World"
+node publisher.js 'Hello World'
 ```
 
 The hello world message will be picked up by the consumer and logged into the console.
